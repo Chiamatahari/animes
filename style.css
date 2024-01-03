@@ -1,0 +1,52 @@
+/* Corrected typo in body selector */
+body {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px 0px 50px;
+}
+h1, p{
+    font-family: Helvetica, sans-serif;
+}
+
+.submain{
+    
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.name > p{
+    padding-top: 30px;
+}
+.name{
+    height: 125px;
+    width: 200px;
+    border: 20px solid aqua;
+}
+.main{
+    flex: 1;
+    display: inline-block;
+    
+}
+
+
+.pic{
+    border: 10px solid white;
+    float: left;
+    border-radius: 50%;
+   
+    width: 100px;
+    height: 100px;
+}
+.sid{
+    clear: both;
+}
+@media (max-width: 680px){
+    body{
+        font-size: 12px;
+    }
+    .characters{
+        color:red;
+    }
+}
